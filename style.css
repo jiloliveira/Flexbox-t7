@@ -1,0 +1,24 @@
+.conteiner{
+    width: auto;
+    height: 280px;
+    background-color: antiquewhite;
+    border: 2px solid #000;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #000; */
+    display: flex;
+    flex-direction: row; /*possíveis valores row*, row-reverse, colum, colum-reverse*/
+    justify-content: space-evenly; /* possíveis valores: flex-start*, flex-end, center, start, end, space-around, space-between, space-evenly*/
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-flow: row wrap; /*shorthand de flex-direction + flex-wrap (atalho)*/ 
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(213, 191, 233);
+    border: 2px solid #000;
+    font-size: 2rem;/*Pesquisar unidades de medida*/
+
+}
